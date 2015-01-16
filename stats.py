@@ -12,6 +12,7 @@ def mean(vals):
 
 def median(vals):
     """please implement this function"""
+
     vals.sort()
     z = len(vals)
     index = z / 2
